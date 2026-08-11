@@ -1,0 +1,67 @@
+<style>
+    /* Reset básico para remover margens e padronizar o layout */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    } 
+
+    #container {
+      max-width: 900px; /* Expandido para dar mais espaço para as imagens */
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      text-decoration: underline;
+    }
+
+    .subtitle {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .question {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      text-decoration: underline;
+    }
+
+    figure {
+      width: 100%;
+      margin: 20px 0 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Regras da Imagem - AUMENTADAS */
+    img {
+      width: 100%;           /* Ocupa a largura total permitida */
+      max-width: 650px;      /* Aumentado de 400px para 650px */
+      height: auto;          /* Mantém a proporção sem distorcer */
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    figcaption {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 1.05rem;
+    }
+
+    p.description {
+      max-width: 700px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+  </style>
