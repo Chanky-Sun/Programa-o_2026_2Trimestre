@@ -51,5 +51,70 @@
 
     figure {
       width: 100%;
-      margin: 20px 0 10
-    }  
+      margin: 20px 0 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Regras da Imagem - AUMENTADAS */
+    img {
+      width: 100%;           /* Ocupa a largura total permitida */
+      max-width: 650px;      /* Aumentado de 400px para 650px */
+      height: auto;          /* Mantém a proporção sem distorcer */
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    figcaption {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 1.05rem;
+    }
+
+    p.description {
+      max-width: 700px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="container">
+
+    <h1>GAME DO SABER</h1>
+
+    <p class="subtitle">NOSSA ESCOLA NOSSO COMPROMISSO</p>
+
+    <p class="question">
+      O QUE NÓS PODEMOS FAZER PARA TORNAR NOSSA ESCOLA AINDA MELHOR?
+    </p>
+
+    <figure>
+      <img src="imageA.png" alt="Antes e depois do ventilador">
+      <figcaption>Antes e depois - "Ventilador"</figcaption>
+    </figure>
+
+    <p class="description">
+      O cuidado com o patrimônio da escola é responsabilidade de todos os estudantes e funcionários.
+      Os bens duráveis são importantes para o desenvolvimento dos estudantes e geram um ambiente
+      melhor para todos os envolvidos.
+    </p>
+
+    <figure>
+      <img src="imageB.png" alt="Antes e depois dos banheiros">
+      <figcaption>Antes e depois - "Banheiros"</figcaption>
+    </figure>
+
+    <p class="description">
+      O cuidado com o patrimônio da escola é responsabilidade de todos os estudantes e funcionários.
+      Os bens duráveis são importantes para o desenvolvimento dos estudantes e geram um ambiente
+      melhor para todos os envolvidos.
+    </p>
+
+  </div>
+
+</body>
+</html>
